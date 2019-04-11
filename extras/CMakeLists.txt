@@ -1,4 +1,6 @@
-# Since 
+# RC_INSTALL_ALL_EXTRAS essentially overrides RC_ENABLE_* options in order to
+# install every integration header for use in external projects. Note that this
+# option will not enable the building of examples and tests using the integrations.
 option(RC_INSTALL_ALL_EXTRAS "Add all possible integrations without
   requiring the initialization of all the submodules in ext." OFF)
 
